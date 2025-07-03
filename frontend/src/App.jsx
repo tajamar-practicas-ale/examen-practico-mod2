@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <main className='p-8 w-dvw h-dvh bg-neutral-500'>
+    <main className='p-8 w-dvw h-dvh bg-neutral-800'>
       <TaskForm onTaskCreated={handleNewTask} />
       <TaskList reloadTrigger={reload} />
     </main>
